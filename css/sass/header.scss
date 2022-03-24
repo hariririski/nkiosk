@@ -1,5 +1,5 @@
 /*=================================================================*/
-/*                      HEADER                              
+/*                      HEADER
 /*=================================================================*/
 header.header {
 	padding: 50px 40px 40px;
@@ -181,9 +181,9 @@ header.header {
 		-webkit-backface-visibility: hidden;
 	}
 	.main-menu li a {
-		color: $colortext;
+		color: #000000;
 		font-family: $fonthead;
-		font-size: 14px;
+		font-size: 20px;
 		font-weight: 400;
 		display: inline-block;
 		width: 100%;
