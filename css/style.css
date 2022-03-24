@@ -37,7 +37,7 @@ Description: Personal Portfolio & CV Resume Template
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /*=================================================================*/
-/*                      BASE                              
+/*                      BASE
 /*=================================================================*/
 html {
   margin: 0 !important;
@@ -46,7 +46,7 @@ html {
 body {
   color: #716e79;
   background: #dff4e4;
-  background: linear-gradient(45deg, #dff4e4 0%, #f0ddee 24%, #dee7f5 49%, #e9dae4 73%, #cbffff 100%);
+  background: linear-gradient(49deg, #eaf5fa 0%, #2980b9 1%, #eaf5fa 59%, #eaf5fa 63%, #cbffff 100%);
   font-family: "Jost", sans-serif;
   font-size: 17px;
   line-height: 1.7;
@@ -77,7 +77,7 @@ img {
 }
 
 /*=================================================================*/
-/*                      TYPOGRAPHY                              
+/*                      TYPOGRAPHY
 /*=================================================================*/
 h1, h2, h3, h4, h5, h6 {
   color: #33303E;
@@ -150,7 +150,7 @@ pre {
 }
 
 /*=================================================================*/
-/*                      PRELOADER                              
+/*                      PRELOADER
 /*=================================================================*/
 .animation-container {
   display: block;
@@ -388,7 +388,7 @@ pre {
 }
 
 /*=================================================================*/
-/*                      HEADER                              
+/*                      HEADER
 /*=================================================================*/
 header.header {
   padding: 50px 40px 40px;
@@ -578,9 +578,9 @@ header.header .main-menu li .switch {
   -webkit-backface-visibility: hidden;
 }
 header.header .main-menu li a {
-  color: #716e79;
+  color: #000000;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   display: inline-block;
   width: 100%;
@@ -709,7 +709,7 @@ header.mobile-header .menu-icon span.open:after {
 }
 
 /*=================================================================*/
-/*                      SITE WRAPPER                             
+/*                      SITE WRAPPER
 /*=================================================================*/
 .site-wrapper {
   background-color: rgba(255, 255, 255, 0.3);
@@ -747,7 +747,7 @@ header.mobile-header .menu-icon span.open:after {
 }
 
 /*=================================================================*/
-/*                      SECTIONS                             
+/*                      SECTIONS
 /*=================================================================*/
 main.content {
   display: inline-block;
@@ -933,7 +933,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      ABOUT                              
+/*                      ABOUT
 /*=================================================================*/
 .about-pic {
   float: left;
@@ -945,7 +945,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      SKILLS                              
+/*                      SKILLS
 /*=================================================================*/
 .skill-item .skill-info {
   margin-bottom: 10px;
@@ -956,7 +956,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      SERVICE                              
+/*                      SERVICE
 /*=================================================================*/
 .service-box {
   border-radius: 10px;
@@ -976,7 +976,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      PORTFOLIO                              
+/*                      PORTFOLIO
 /*=================================================================*/
 .portfolio-filter {
   margin-bottom: 40px;
@@ -1050,7 +1050,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      FACTS                              
+/*                      FACTS
 /*=================================================================*/
 .fact-item {
   border-radius: 10px;
@@ -1072,7 +1072,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      PRICES                              
+/*                      PRICES
 /*=================================================================*/
 .price-item {
   padding: 30px;
@@ -1126,7 +1126,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      TESTIMONIALS                              
+/*                      TESTIMONIALS
 /*=================================================================*/
 .testimonials-wrapper {
   max-width: 700px;
@@ -1148,7 +1148,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      RESUME                              
+/*                      RESUME
 /*=================================================================*/
 .resume-item {
   padding: 25px;
@@ -1164,7 +1164,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      BLOG                              
+/*                      BLOG
 /*=================================================================*/
 .blog-item .thumb {
   position: relative;
@@ -1327,7 +1327,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      CLIENTS                              
+/*                      CLIENTS
 /*=================================================================*/
 .clients-wrapper .slick-track {
   padding: 11px 0;
@@ -1358,7 +1358,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      CONTACT                              
+/*                      CONTACT
 /*=================================================================*/
 .contact-item {
   border-radius: 10px;
@@ -1383,7 +1383,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      WIDGET                              
+/*                      WIDGET
 /*=================================================================*/
 .widget {
   padding: 20px;
@@ -1445,7 +1445,7 @@ section.section-visible:before {
 }
 
 /*=================================================================*/
-/*                      HELPER                              
+/*                      HELPER
 /*=================================================================*/
 .help-block.with-errors {
   color: red;
