@@ -1,5 +1,5 @@
 /*=================================================================*/
-/*                      BASE                              
+/*                      BASE
 /*=================================================================*/
 html {
     margin: 0 !important;
@@ -8,7 +8,7 @@ html {
 body {
     color: $colortext;
     background: rgb(223,244,228);
-    background: linear-gradient(45deg, rgba(223,244,228,1) 0%, rgba(240,221,238,1) 24%, rgba(222,231,245,1) 49%, rgba(233,218,228,1) 73%, rgba(203,255,255,1) 100%);
+    background: linear-gradient(45deg, #dff4e4 0%, #2980b9 24%, #a9bbd7 49%, #eaf5fa 73%, #cbffff 100%)
     font-family: $fontstack;
     font-size: 17px;
     line-height: 1.7;
@@ -39,7 +39,7 @@ img {
 }
 
 /*=================================================================*/
-/*                      TYPOGRAPHY                              
+/*                      TYPOGRAPHY
 /*=================================================================*/
 h1,h2,h3,h4,h5,h6 {
     color: $colortextdark;
@@ -112,7 +112,7 @@ pre {
 }
 
 /*=================================================================*/
-/*                      PRELOADER                              
+/*                      PRELOADER
 /*=================================================================*/
 .animation-container {
 	display: block;
@@ -123,14 +123,14 @@ pre {
     left: 0;
     max-width: 100%;
     margin: 0 auto;
-	
+
 	.lightning-container {
 		position: absolute;
 		top: 45%;
         left: 32%;
 		display: flex;
 		transform: translateY(-50%);
-		
+
 		.lightning {
 			position: absolute;
 			display: block;
@@ -157,8 +157,8 @@ pre {
 			}
 		}
 	}
-	
-	
+
+
 	.boom-container {
 		position: absolute;
 		display: flex;
@@ -169,13 +169,13 @@ pre {
 		transform: translateY(-50%);
         left: 40%;
         top: 32%;
-		
+
 		.shape {
 			display: inline-block;
 			position: relative;
 			opacity: 0;
 			transform-origin: center center;
-			
+
 			&.triangle {
 				width: 0;
 				height: 0;
@@ -188,7 +188,7 @@ pre {
 				border-width: 0 2.5px 5px 2.5px;
 				border-color: transparent transparent #86EDFF transparent;
 				animation-name: boom-triangle;
-				
+
 				&.big {
 					margin-left: -25px;
 					border-width: 0 5px 10px 5px;
@@ -196,7 +196,7 @@ pre {
 					animation-name: boom-triangle-big;
 				}
 			}
-			
+
 			&.disc {
 				width: 8px;
 				height: 8px;
@@ -207,7 +207,7 @@ pre {
 				animation-timing-function: ease-out;
 				animation-iteration-count: infinite;
 			}
-			
+
 			&.circle {
 				width: 20px;
 				height: 20px;
@@ -217,38 +217,38 @@ pre {
 				animation-iteration-count: infinite;
 				border-radius: 100%;
 				margin-left: -30px;
-				
+
 				&.white {
 					border: 1px solid white;
 				}
-				
+
 				&.big {
 					width: 40px;
 					height: 40px;
 					margin-left: 0px;
-					
+
 					&.white {
 						border: 2px solid white;
 					}
 				}
 			}
-			
+
 			&:after {
 				background-color: rgba(178, 215, 232, 0.2);
 			}
 		}
-		
+
 		.shape {
 			&.triangle, &.circle, &.circle.big, &.disc {
 				animation-delay: .38s;
 				animation-duration: 3s;
 			}
-			
+
 			&.circle {
 				animation-delay: 0.6s;
 			}
 		}
-		
+
 		&.second {
 			right: 38%;
             left: auto;
@@ -291,7 +291,7 @@ pre {
 	70.1% {
 		transform: translate(500px, 150px) rotate(-37deg);
 	}
-	
+
 	85% {
 		width: 50px;
 	}
@@ -323,7 +323,7 @@ pre {
 	5% {
 		opacity: 1;
 	}
-	
+
 	40% {
 		opacity: 0;
 		transform: scale(2.5) translate(50px, -50px) rotate(360deg);
@@ -339,12 +339,12 @@ pre {
 	5% {
 		opacity: 1;
 	}
-	
+
 	30% {
 		opacity: 0;
 		transform: scale(3) translate(20px, 40px) rotate(360deg);
 	}
-	
+
 	100% {
 	}
 }
@@ -361,7 +361,7 @@ pre {
 		transform: scale(2) translate(-70px, -30px);
 	}
 	100% {
-		
+
 	}
 }
 
