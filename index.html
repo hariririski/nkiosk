@@ -18,7 +18,59 @@
     <link rel="stylesheet" href="css/owl.carousel.css?v=1.1" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css?v=1.1" type="text/css">
     <link rel="stylesheet" href="css/main.css?v=1.5" type="text/css">
+    <style media="screen">
+      *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
 
+      .container{
+          /* width: 500px;
+          position: absolute;
+          transform: translate(-50%,-50%); */
+          top: 50%;
+          left: 50%;
+          overflow: hidden;
+          border: 10px solid #ffffff;
+          border-radius: 8px;
+          box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+      }
+      .wrapper{
+          width: 100%;
+          display: flex;
+          animation: slide 16s infinite;
+      }
+      @keyframes slide{
+          0%{
+              transform: translateX(0);
+          }
+          25%{
+              transform: translateX(0);
+          }
+          30%{
+              transform: translateX(-100%);
+          }
+          50%{
+              transform: translateX(-100%);
+          }
+          55%{
+              transform: translateX(-200%);
+          }
+          75%{
+              transform: translateX(-200%);
+          }
+          80%{
+              transform: translateX(-300%);
+          }
+          100%{
+              transform: translateX(-300%);
+          }
+      }
+      img{
+          width: 100%;
+      }
+    </style>
   </head>
 
   <body>
@@ -127,23 +179,15 @@
                       <div class="fw-pricing clearfix row">
 
                         <div class="fw-package-wrap col-md-12 ">
-                          <div class="fw-package">
-                            <div class="fw-heading-row">
-                              <span>Silver</span>
-                            </div>
+                          <div class="fw-package container">
 
-                            <div class="fw-pricing-row">
-                              <span>$64</span>
-                              <small>per month</small>
-                            </div>
+                                <div class="wrapper">
+                                    <img src="https://kot-bandaaceh.atrbpn.go.id/cms/assets/upload/kantor_13/slider/20220107164144.png">
+                                    <img src="https://kot-bandaaceh.atrbpn.go.id/cms/assets/upload/kantor_13/slider/20220107164055.png">
+                                    <img src="https://kot-bandaaceh.atrbpn.go.id/cms/assets/upload/kantor_13/slider/20220107164119.png">
+                                    <img src="https://kot-bandaaceh.atrbpn.go.id/cms/assets/upload/kantor_13/slider/20220107163920.png">
+                                </div>
 
-                            <div class="fw-button-row">
-                              <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
-                            </div>
-
-                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                            <div class="fw-default-row">Morbi eu sagittis</div>
                           </div>
                         </div>
 
