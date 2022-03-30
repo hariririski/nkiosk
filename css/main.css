@@ -2624,7 +2624,7 @@ blockquote {
   background-color: #333;
   border: 2px solid #444;
   border-radius: 15px;
-  padding: 30px 30px;
+  padding: 10px 10px;
   margin-bottom: 10px;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
