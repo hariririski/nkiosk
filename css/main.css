@@ -2267,9 +2267,9 @@ blockquote {
     max-width: 330px;
   }
 
-  .content-area {
+  /* .content-area {
     max-width: calc(100% - 330px);
-  }
+  } */
 }
 
 @media only screen and (min-width: 1025px) {
